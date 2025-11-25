@@ -26,7 +26,7 @@ ls
 
 দেখাবে:
 
-cd cd-article-management-system  env
+cd-article-management-system  env
 
 ৫. এখন প্রজেক্ট ফোল্ডারে ঢুকো
 cd cd-article-management-system
