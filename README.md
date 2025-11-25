@@ -1,3 +1,64 @@
+✅ Django Project Setup — বাংলা ভার্সন
+১. প্রথমে ভার্চুয়াল এনভাইরনমেন্ট বানাও
+python -m venv env
+
+২. Virtual environment সক্রিয় করো
+
+Windows Git Bash এ:
+
+source env/Scripts/activate
+
+
+টার্মিনালে দেখাবে:
+(env) → মানে env activate হয়েছে।
+
+⚠️ ⚠️ এখন খুব গুরুত্বপূর্ণ অংশ
+
+git clone সবসময় project folder এর বাইরে করা লাগে।
+তুমি আগে venv activate করার পর সঠিকভাবেই করেছ।
+
+৩. GitHub থেকে প্রজেক্ট নামাও
+git clone https://github.com/mdkarimulislam535-cyber/cd-article-management-system.git
+
+৪. এখন ডিরেক্টরি লিস্ট দেখো
+ls
+
+
+দেখাবে:
+
+cd-article-management-system  env
+
+৫. এখন প্রজেক্ট ফোল্ডারে ঢুকো
+cd cd-article-management-system
+
+৬. requirements ইনস্টল করো
+
+(venv চালু থাকলে pip3 বা pip দুটোই কাজ করবে)
+
+pip install -r requirements.txt
+
+৭. Superuser তৈরি করো
+python manage.py createsuperuser
+
+
+এখানে নাম, ইমেইল, পাসওয়ার্ড চাইবে।
+
+৮. প্রজেক্ট রান করো
+python manage.py runserver
+
+
+তারপর ব্রাউজারে গিয়ে লিখো:
+
+http://127.0.0.1:8000/
+
+
+
+
+
+
+
+
+
 <p align="center">
       <img src="https://imgur.com/IdvTlVe.jpg" alt="TruethLine" width="150">
 </p>
